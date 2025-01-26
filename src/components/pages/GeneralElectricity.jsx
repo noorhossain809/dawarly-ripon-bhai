@@ -49,12 +49,12 @@ const GeneralElectricity = () => {
       </div>
 
       {/* Electricians Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8 md:mx-0 mx-6">
+      <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-8 gap-3 mt-8 md:mx-0 mx-4">
         {electricians.map((electrician, index) => (
           <div
             key={index}
             onClick={() => navigate("/profilePage")} // Navigate to the same route
-            className="w-full md:w-[291px] h-[364px] bg-white rounded-lg border border-gray-300 flex flex-col items-center shadow-sm cursor-pointer hover:shadow-md"
+            className="w-full py-4 bg-white rounded-lg border border-gray-300 flex flex-col items-center shadow-sm cursor-pointer hover:shadow-md"
           >
             <div className="w-[111px] h-[111px] mt-6 bg-[#d9d9d9] rounded-full"></div>
             <h3 className="mt-4 text-black text-base font-medium ">

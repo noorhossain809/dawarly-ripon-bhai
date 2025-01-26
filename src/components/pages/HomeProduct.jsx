@@ -81,12 +81,12 @@ const HomeProduct = () => {
 
   return (
     <div className="mt-10">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px] mt-10 max-w-7xl md:mx-auto mx-10">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-[20px] mt-10 max-w-7xl md:mx-auto mx-6">
         {products.map((product, index) => (
           <div
             key={index}
             onClick={() => navigate(product.route)}
-            className="h-[200px] rounded-xl border-2 px-6 w-full flex flex-col items-center justify-center text-center transition-all cursor-pointer border-[#0083b3] hover:bg-[#0083b3] group"
+            className="py-2 md:py-6 rounded-xl border-2 px-6 w-full flex flex-col items-center justify-center text-center transition-all cursor-pointer border-[#0083b3] hover:bg-[#0083b3] group"
           >
             <div className="w-16 h-16 mb-4 rounded-full flex justify-center items-center">
               <img
@@ -102,7 +102,7 @@ const HomeProduct = () => {
         ))}
       </div>
         <div className="flex justify-center items-center my-10">
-          <button className="text-center px-10 py-4 bg-[#0083b3] rounded-md text-white text-lg font-medium ">
+          <button className="text-center px-10 py-4 bg-[#0083b3] rounded-md text-white md:text-lg font-medium ">
             Technical Worker Registration
           </button>
         </div>

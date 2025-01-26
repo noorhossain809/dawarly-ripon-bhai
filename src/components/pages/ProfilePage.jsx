@@ -28,7 +28,7 @@ const ProfilePage = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center w-full h-full bg-white mt-16">
+    <div className=" bg-white mt-16 max-w-7xl mx-auto">
       {/* Section 1 */}
       <div className="w-full md:w-[90%] lg:w-[1440px] h-auto md:h-[527px] relative bg-white flex flex-col md:flex-row justify-center items-center md:gap-10">
         {/* Left Profile Card */}
@@ -91,7 +91,7 @@ const ProfilePage = () => {
         </div>
 
         {/* About Section */}
-        <div className="w-full md:ml-[80px] mt-10 md:mt-0 px-6 md:px-0">
+        <div className="w-full md:ml-[80px] mt-10 md:mt-0 px-4 md:px-0">
           <div className="text-[#282828] md:text-[28px] text-2xl font-bold ">
             About Jon Doe
           </div>
@@ -117,7 +117,7 @@ const ProfilePage = () => {
       </div>
 
       {/* Section 2 */}
-      <div className="w-full flex flex-col py-10 bg-white md:px-0 px-6">
+      <div className=" flex flex-col py-10 bg-white md:mx-0 mx-4">
         {/* Heading */}
         <div className="w-full max-w-[1248px] mx-auto">
           <h2 className="text-[#282828] text-[28px] font-medium mb-8">
@@ -126,11 +126,11 @@ const ProfilePage = () => {
         </div>
 
         {/* Grid Layout */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-[1248px] mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-4 md:gap-8 gap-3 ">
           {electricians.map((electrician, index) => (
             <div
               key={index}
-             style={{paddingBottom:'28px'}} className="w-full md:w-[291px] h-auto bg-white rounded-lg border border-gray-300 flex flex-col items-center shadow-sm"
+             style={{paddingBottom:'28px'}} className="w-full bg-white rounded-lg border border-gray-300 flex flex-col items-center shadow-sm"
             >
               <div className="w-[111px] h-[111px] mt-6 bg-[#d9d9d9] rounded-full"></div>
               <h3 className="text-black text-lg font-medium  mt-4">

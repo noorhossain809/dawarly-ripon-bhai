@@ -56,7 +56,7 @@ const Electricity = () => {
       </div>
 
       {/* Subcategories Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-[1200px] mx-auto">
+      <div className="grid grid-cols-2 lg:grid-cols-4 md:gap-5 gap-2 max-w-7xl md:mx-auto mx-6">
         {subCategories.map((category, index) => (
           <div
             key={index}
@@ -70,7 +70,7 @@ const Electricity = () => {
                 className="w-full h-full object-contain group-hover:filter group-hover:brightness-0 group-hover:invert"
               />
             </div>
-            <div className="text-base font-semibold font-['Inter'] text-[#3a4e39] group-hover:text-white">
+            <div className="md:text-base text-sm font-semibold text-center font-['Inter'] text-[#3a4e39] group-hover:text-white">
               {category.title}
             </div>
           </div>
