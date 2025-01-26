@@ -1,5 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import img1 from '../../assets/Electricity, Air conditioning and Elevators/pepicons-pencil_electricity-circle.svg'
+import img2 from '../../assets/Electricity, Air conditioning and Elevators/exchange 1.svg'
+import img3 from '../../assets/Electricity, Air conditioning and Elevators/system 1.svg'
+import img4 from '../../assets/Electricity, Air conditioning and Elevators/air-conditioner 2.svg'
+import img5 from '../../assets/Electricity, Air conditioning and Elevators/repair 1.svg'
+import img6 from '../../assets/Electricity, Air conditioning and Elevators/exchange 1.svg'
 
 const Electricity = () => {
   const navigate = useNavigate();
@@ -8,32 +14,32 @@ const Electricity = () => {
     {
       title: "General electricity",
       route: "/generalElectricity",
-      icon: "/src/assets/Electricity, Air conditioning and Elevators/pepicons-pencil_electricity-circle.svg", // Replace with actual path
+      icon: img1, // Replace with actual path
     },
     {
       title: "Electrical appliances repair",
       route: "/generalElectricity",
-      icon: "/src/assets/Electricity, Air conditioning and Elevators/exchange 1.svg", // Replace with actual path
+      icon: img2 // Replace with actual path
     },
     {
       title: "Central air conditioning maintenance",
       route: "/generalElectricity",
-      icon: "/src/assets/Electricity, Air conditioning and Elevators/system 1.svg", // Replace with actual path
+      icon: img3 // Replace with actual path
     },
     {
       title: "Unit air conditioning maintenance",
       route: "/generalElectricity",
-      icon: "/src/assets/Electricity, Air conditioning and Elevators/air-conditioner 2.svg", // Replace with actual path
+      icon: img4
     },
     {
       title: "Elevator maintenance",
       route: "/generalElectricity",
-      icon: "/src/assets/Electricity, Air conditioning and Elevators/repair 1.svg", // Replace with actual path
+      icon: img5 // Replace with actual path
     },
     {
       title: "Buying and selling used appliances",
       route: "/generalElectricity",
-      icon: "/src/assets/Electricity, Air conditioning and Elevators/exchange 1.svg", // Replace with actual path
+      icon: img6 // Replace with actual path
     },
   ];
 

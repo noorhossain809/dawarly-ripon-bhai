@@ -1,5 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import call from '../../assets/pictures/call.svg'
+import whatsapp from '../../assets/pictures/whatsapp.svg'
+import filter from '../../assets/pictures/filter.svg'
+
 
 const GeneralElectricity = () => {
   const navigate = useNavigate();
@@ -37,7 +41,7 @@ const GeneralElectricity = () => {
         <div className="flex items-center gap-2 text-black md:text-lg font-normal  uppercase leading-7 tracking-wide">
           Filter By
           <img
-            src="/src/assets/pictures/filter.svg"
+            src={filter}
             alt="Filter"
             className="md:w-11 md:h-11 w-8 h-8 relative overflow-hidden"
           />
@@ -62,13 +66,13 @@ const GeneralElectricity = () => {
             <div className="flex gap-4 mt-4">
               <div className="w-7 h-7 bg-white rounded-full shadow-md flex justify-center items-center">
                 <img
-                  src="/src/assets/pictures/whatsapp.svg"
+                  src={whatsapp}
                   alt="WhatsApp"
                   className="w-4 h-4"
                 />
               </div>
               <div className="w-7 h-7 bg-white rounded-full shadow-md flex justify-center items-center">
-                <img src="/src/assets/pictures/phone.svg" alt="Phone" className="w-4 h-4" />
+                <img src={call} alt="Phone" className="w-4 h-4" />
               </div>
             </div>
             <button className="mt-6 w-[163px] h-[38px] bg-[#0083b3] text-white text-sm font-medium font-['Roboto'] rounded-[100px]">

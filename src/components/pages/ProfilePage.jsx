@@ -1,4 +1,11 @@
 import React from "react";
+import call from '../../assets/pictures/call.svg'
+import mail from '../../assets/pictures/mail.svg'
+import whatsapp from '../../assets/pictures/whatsapp.svg'
+import instagram from '../../assets/pictures/instragram.svg'
+import facebook from '../../assets/pictures/facebok.svg'
+import twieter from '../../assets/pictures/twitter.svg'
+import youtube from '../../assets/pictures/youtube.svg'
 
 const ProfilePage = () => {
   const electricians = [
@@ -47,7 +54,7 @@ const ProfilePage = () => {
               {/* WhatsApp Icon */}
               <div className="p-1 bg-[#0083b3] rounded-full shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] flex justify-center items-center">
                 <img
-                  src="/src/assets/pictures/whatsapp.svg"
+                  src={whatsapp}
                   alt="WhatsApp"
                   className="md:w-7 md:h-7 filter invert"
                 />
@@ -56,7 +63,7 @@ const ProfilePage = () => {
               {/* Instagram Icon */}
               <div className="p-1 bg-[#0083b3] rounded-full shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] flex justify-center items-center">
                 <img
-                  src="/src/assets/pictures/instragram.svg"
+                  src={instagram}
                   alt="Instagram"
                   className="md:w-7 md:h-7 filter invert"
                 />
@@ -65,7 +72,7 @@ const ProfilePage = () => {
               {/* Facebook Icon */}
               <div className="p-1 bg-[#0083b3] rounded-full shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] flex justify-center items-center">
                 <img
-                  src="/src/assets/pictures/facebok.svg"
+                  src={facebook}
                   alt="Facebook"
                   className="md:w-7 md:h-7 filter invert"
                 />
@@ -74,7 +81,7 @@ const ProfilePage = () => {
               {/* Twitter Icon */}
               <div className="p-1 bg-[#0083b3] rounded-full shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] flex justify-center items-center">
                 <img
-                  src="/src/assets/pictures/twitter.svg"
+                  src={twieter}
                   alt="Twitter"
                   className="md:w-7 md:h-7  filter invert"
                 />
@@ -134,16 +141,16 @@ const ProfilePage = () => {
               </p>
               <div className="flex gap-4 mt-4">
                 <div className="w-9 h-9 bg-[#e8f9ff] rounded-full flex justify-center items-center">
-                  <img src="/src/assets/pictures/whatsapp.svg" alt="WhatsApp" className="w-5 h-5" />
+                  <img src={whatsapp} alt="WhatsApp" className="w-5 h-5" />
                 </div>
                 <div className="w-9 h-9 bg-[#e8f9ff] rounded-full flex justify-center items-center">
-                  <img src="/src/assets/pictures/instragram.svg" alt="Instagram" className="w-5 h-5" />
+                  <img src={whatsapp} alt="Instagram" className="w-5 h-5" />
                 </div>
                 <div className="w-9 h-9 bg-[#e8f9ff] rounded-full flex justify-center items-center">
-                  <img src="/src/assets/pictures/facebok.svg" alt="Facebook" className="w-5 h-5" />
+                  <img src={facebook} alt="Facebook" className="w-5 h-5" />
                 </div>
                 <div className="w-9 h-9 bg-[#e8f9ff] rounded-full flex justify-center items-center">
-                  <img src="/src/assets/pictures/twitter.svg" alt="Twitter" className="w-5 h-5" />
+                  <img src={twieter} alt="Twitter" className="w-5 h-5" />
                 </div>
               </div>
               <button className="mt-6 w-[163px] h-[38px] bg-[#0083b3] text-white text-sm font-medium font-['Roboto'] rounded-[100px] tracking-tight">

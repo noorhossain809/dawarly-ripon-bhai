@@ -1,5 +1,14 @@
 import React from "react";
 import logo from '../../assets/logo/logo.svg'
+import location from '../../assets/pictures/location.svg'
+import call from '../../assets/pictures/call.svg'
+import mail from '../../assets/pictures/mail.svg'
+import whatsapp from '../../assets/pictures/whatsapp.svg'
+import instagram from '../../assets/pictures/instragram.svg'
+import facebook from '../../assets/pictures/facebok.svg'
+import twieter from '../../assets/pictures/twitter.svg'
+import youtube from '../../assets/pictures/youtube.svg'
+
 
 const Footer = () => {
   return (
@@ -25,7 +34,7 @@ const Footer = () => {
           </h4>
           <p className="text-gray-600 text-sm flex justify-start items-center mb-4">
             <img
-              src="/src/assets/pictures/location.svg"
+              src={location}
               alt="Address Icon"
               className="mr-3 w-5 h-5"
             />
@@ -33,7 +42,7 @@ const Footer = () => {
           </p>
           <p className="text-gray-600 text-sm flex justify-start items-center mb-4">
             <img
-              src="/src/assets/pictures/call.svg"
+              src={call}
               alt="Phone Icon"
               className="mr-3 w-5 h-5"
             />
@@ -41,7 +50,7 @@ const Footer = () => {
           </p>
           <p className="text-gray-600 text-sm flex justify-center lg:justify-start items-center mb-4">
             <img
-              src="/src/assets/pictures/mail.svg"
+              src={mail}
               alt="Email Icon"
               className="mr-3 w-5 h-5"
             />
@@ -57,21 +66,21 @@ const Footer = () => {
           <div className="flex justify-center lg:justify-start space-x-4">
             <a href="#" className="w-10 h-10 bg-[#D9D9D9] rounded-full flex items-center justify-center">
               <img
-                src="/src/assets/pictures/whatsapp.svg"
+                src={whatsapp}
                 alt="WhatsApp"
                 className="w-6 h-6"
               />
             </a>
             <a href="#" className="w-10 h-10 bg-[#D9D9D9] rounded-full flex items-center justify-center">
               <img
-                src="/src/assets/pictures/instragram.svg"
+                src={instagram}
                 alt="Instagram"
                 className="w-6 h-6"
               />
             </a>
             <a href="#" className="w-10 h-10 bg-[#D9D9D9] rounded-full flex items-center justify-center">
               <img
-                src="/src/assets/pictures/facebok.svg"
+                src={facebook}
                 alt="Facebook"
                 className="w-6 h-6"
               />
@@ -96,7 +105,7 @@ const Footer = () => {
             className="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-full hover:border-gray-500"
           >
             <img
-              src="/src/assets/pictures/facebok.svg"
+              src={facebook}
               alt="Facebook"
               className="w-5 h-5"
             />
@@ -106,7 +115,7 @@ const Footer = () => {
             className="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-full hover:border-gray-500"
           >
             <img
-              src="/src/assets/pictures/twitter.svg"
+              src={twieter}
               alt="Twitter"
               className="w-5 h-5"
             />
@@ -116,7 +125,7 @@ const Footer = () => {
             className="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-full hover:border-gray-500"
           >
             <img
-              src="/src/assets/pictures/youtube.svg"
+              src={youtube}
               alt="YouTube"
               className="w-5 h-5"
             />
