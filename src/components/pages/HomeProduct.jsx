@@ -1,5 +1,17 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import img1 from '../../assets/HomeProudctSvg/healthicons_electricity-outline (2).svg'
+import img2 from '../../assets/HomeProudctSvg/healthicons_water-sanitation-outline.png'
+import img3 from '../../assets/HomeProudctSvg/hair-dye 1.png'
+import img4 from '../../assets/HomeProudctSvg/renovation 1.png'
+import img5 from '../../assets/HomeProudctSvg/sanitizer 1.png'
+import img6 from '../../assets/HomeProudctSvg/ant-design_car-outlined.png'
+import img7 from '../../assets/HomeProudctSvg/printer 1.png'
+import img8 from '../../assets/HomeProudctSvg/facial-treatment 1.png'
+import img9 from '../../assets/HomeProudctSvg/map_furniture-store.png'
+import img10 from '../../assets/HomeProudctSvg/blacksmith 1.png'
+import img11 from '../../assets/HomeProudctSvg/arch 1.png'
+import img12 from '../../assets/HomeProudctSvg/livestock 1.png'
 
 const HomeProduct = () => {
   const navigate = useNavigate();
@@ -8,62 +20,62 @@ const HomeProduct = () => {
     {
       text: "Electricity, air conditioning and elevators",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/healthicons_electricity-outline (2).svg",
+      icon: img1,
     },
     {
       text: "Water and sanitation treatment",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/healthicons_water-sanitation-outline.png",
+      icon: img2,
     },
     {
       text: "Dyes and decorations",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/hair-dye 1.png",
+      icon: img3
     },
     {
       text: "Construction and renovations",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/renovation 1.png",
+      icon: img4
     },
     {
       text: "Pest control and cleaning",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/sanitizer 1.png",
+      icon: img5
     },
     {
       text: "Car maintenance and transportation",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/ant-design_car-outlined.png",
+      icon: img6
     },
     {
       text: "Electronics, printing and photography",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/printer 1.png",
+      icon: img7
     },
     {
       text: "Cosmetology",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/facial-treatment 1.png",
+      icon: img8
     },
     {
       text: "Furniture and furnishings",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/map_furniture-store.png",
+      icon: img9
     },
     {
       text: "Blacksmithing, aluminum and carpentry",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/blacksmith 1.png",
+      icon: img10
     },
     {
       text: "Weddings and events",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/arch 1.png",
+      icon: img11
     },
     {
       text: "Livestock and animals",
       route: "/electricity",
-      icon: "/src/assets/HomeProudctSvg/livestock 1.png",
+      icon: img12
     },
   ];
 
