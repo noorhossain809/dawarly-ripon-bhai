@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../../assets/logo/logo.svg'
 
 const Footer = () => {
   return (
@@ -7,10 +8,7 @@ const Footer = () => {
         {/* Left Section */}
         <div className=" ">
           <div className="flex lg:justify-start items-center mb-4 ">
-            <img src="/src/assets/pictures/navbar.png" alt="Dawarly Logo" />
-            <span className="text-[#0083b3] ml-3 text-xl font-semibold">
-              DAWARLY
-            </span>
+            <img src={logo} alt="Dawarly Logo" />
           </div>
           <p className="text-gray-600 text-sm max-w-sm">
             Lorem Ipsum is simply dummy text of the printing and typesetting
