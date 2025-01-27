@@ -19,10 +19,10 @@ const GeneralElectricity = () => {
     >
       {/* Header Section */}
       <div className="text-center">
-        <div className="w-full text-[#0083b3] text-lg font-normal  uppercase leading-7 tracking-wide">
+        <div className="w-full text-[#0083b3] text-lg font-normal font-['Poppins'] uppercase leading-5 tracking-wide">
           Our Skilled People
         </div>
-        <div className="w-full mt-2 text-[#2c2e33] md:text-[38px] text-3xl font-semibold leading-[50px]">
+        <div className="w-full mt-2 text-[#2c2e33] md:text-[38px] text-3xl font-semibold leading-[50px] font-['Poppins']">
           General Electricity
         </div>
       </div>
@@ -38,7 +38,7 @@ const GeneralElectricity = () => {
             className="w-full h-full bg-transparent outline-none text-sm text-black"
           />
         </div>
-        <div className="flex items-center gap-2 text-black md:text-lg font-normal  uppercase leading-7 tracking-wide">
+        <div className="flex items-center gap-2 text-black md:text-lg font-normal font-['Poppins'] uppercase leading-7 tracking-wide">
           Filter By
           <img
             src={filter}
@@ -49,7 +49,7 @@ const GeneralElectricity = () => {
       </div>
 
       {/* Electricians Grid */}
-      <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-8 gap-3 mt-8 md:mx-0 mx-4">
+      <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-8 gap-3 mt-8 md:mx-0 mx-4 font-['Poppins']">
         {electricians.map((electrician, index) => (
           <div
             key={index}
@@ -75,7 +75,7 @@ const GeneralElectricity = () => {
                 <img src={call} alt="Phone" className="w-4 h-4" />
               </div>
             </div>
-            <button className="mt-6 w-[163px] h-[38px] bg-[#0083b3] text-white text-sm font-medium font-['Roboto'] rounded-[100px]">
+            <button className="mt-6 w-[163px] h-[38px] bg-[#0083b3] text-white text-sm font-medium rounded-[100px]">
               Contact
             </button>
           </div>

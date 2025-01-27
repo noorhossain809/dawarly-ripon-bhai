@@ -44,19 +44,19 @@ const Electricity = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center w-full my-16 bg-white">
+    <div className="flex flex-col items-center w-full my-16 bg-white ">
       {/* Header Section */}
       <div className="text-center mb-10">
-        <div className="text-[#0083b3] text-2xl font-normal uppercase leading-7 tracking-[5.76px]">
+        <div className="text-[#0083b3] text-2xl font-normal font-['Poppins'] uppercase leading-5 tracking-[4.76px]">
           Sub Categories
         </div>
-        <div className="mt-4 text-[#2c2e33] md:text-[38px] text-3xl font-semibold  md:leading-[50px]">
+        <div className="mt-4 text-[#2c2e33] md:text-4xl text-2xl font-semibold font-['Poppins'] md:leading-[50px]">
           Electricity, Air conditioning and Elevators
         </div>
       </div>
 
       {/* Subcategories Section */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 md:gap-5 gap-2 max-w-7xl md:mx-auto mx-6">
+      <div className="grid grid-cols-2 lg:grid-cols-4 md:gap-5 gap-2 max-w-7xl md:mx-auto mx-6 ">
         {subCategories.map((category, index) => (
           <div
             key={index}
@@ -70,7 +70,7 @@ const Electricity = () => {
                 className="w-full h-full object-contain group-hover:filter group-hover:brightness-0 group-hover:invert"
               />
             </div>
-            <div className="md:text-base text-sm font-semibold text-center font-['Inter'] text-[#3a4e39] group-hover:text-white">
+            <div className="md:text-base text-sm font-semibold text-center font-['Poppins'] text-[#3a4e39] group-hover:text-white">
               {category.title}
             </div>
           </div>

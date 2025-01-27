@@ -5,8 +5,8 @@ const VerificationOTP = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex justify-center items-center h-screen bg-white">
-      <div className="w-[428px] bg-white flex flex-col items-start px-8 py-6 space-y-6">
+    <div className="flex justify-center items-center min-h-[90vh] bg-white">
+      <div className="w-[428px] bg-white flex flex-col items-start px-8 py-6 space-y-6 ">
         {/* Header Section */}
         <div className="flex items-center space-x-4">
           {/* Back Arrow */}
@@ -18,19 +18,19 @@ const VerificationOTP = () => {
           </div>
 
           {/* Verification Text */}
-          <h1 className="text-[#161616] text-xl font-bold font-['Inter']">
+          <h1 className="text-[#161616] text-xl font-bold font-['Poppins']">
             Verification
           </h1>
         </div>
 
         {/* Subtitle */}
-        <p className="text-neutral-500 text-sm font-normal font-['Inter'] leading-snug">
+        <p className="text-neutral-500 text-sm font-normal font-['Poppins'] leading-snug">
           We send you a code to verify your <br />
           mobile number.
         </p>
 
         {/* Enter OTP Text */}
-        <h2 className="text-[#161616] text-lg font-bold font-['Inter']">
+        <h2 className="text-[#161616] text-lg font-bold font-['Poppins']">
           Enter your OTP code here
         </h2>
 
@@ -45,7 +45,7 @@ const VerificationOTP = () => {
         {/* Continue Button */}
         <div style={{ marginLeft: "-25px" }} className="w-full flex flex-col items-center">
           <button
-            className="w-[335px] h-14 bg-[#0083b3] rounded-[30px] text-white text-xl font-bold font-['Inter']"
+            className="w-[335px] h-14 bg-[#0083b3] rounded-[30px] text-white text-xl font-medium font-['Poppins']"
             onClick={() => navigate("/verifying")} // Navigate to /verifying
           >
             Continue
@@ -53,10 +53,10 @@ const VerificationOTP = () => {
 
           {/* Resend Section */}
           <div className="mt-4 text-center">
-            <p className="text-neutral-500 text-sm font-normal font-['Inter'] leading-snug">
+            <p className="text-neutral-500 text-sm font-normal font-['Poppins'] leading-snug">
               I don’t receive a code
             </p>
-            <button className="text-[#0083b3] text-base font-bold font-['Inter'] leading-snug">
+            <button className="text-[#0083b3] text-base font-semibold font-['Poppins'] leading-snug">
               RESEND
             </button>
           </div>

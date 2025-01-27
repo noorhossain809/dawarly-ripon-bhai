@@ -79,7 +79,7 @@ const Verification = () => {
   const navigate = useNavigate(); // Hook for navigation
 
   return (
-    <div className="flex flex-col justify-center items-start w-full max-w-md mx-auto h-screen p-6">
+    <div className="flex flex-col justify-center items-start w-full max-w-md mx-auto min-h-[90vh] p-6 font-['Poppins'] ">
       {/* Back Button */}
       <div className="flex items-center gap-4 mb-6">
         <div

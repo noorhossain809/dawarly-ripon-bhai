@@ -80,7 +80,7 @@ const HomeProduct = () => {
   ];
 
   return (
-    <div className="mt-10">
+    <div className="mt-10 pb-10">
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-[20px] mt-10 max-w-7xl md:mx-auto mx-6">
         {products.map((product, index) => (
           <div
@@ -95,14 +95,14 @@ const HomeProduct = () => {
                 className="w-full h-full object-cover rounded-full group-hover:filter group-hover:brightness-0 group-hover:invert"
               />
             </div>
-            <div className="text-base font-semibold font-['Inter'] text-[#3a4e39] group-hover:text-white">
+            <div className="text-base font-semibold font-['Poppins'] text-[#3a4e39] group-hover:text-white">
               {product.text}
             </div>
           </div>
         ))}
       </div>
         <div className="flex justify-center items-center my-10">
-          <button className="text-center px-10 py-4 bg-[#0083b3] rounded-md text-white md:text-lg font-medium ">
+          <button className="text-center px-8 py-3 bg-[#0083b3] rounded-md font-['Poppins'] text-white md:text-lg font-medium ">
             Technical Worker Registration
           </button>
         </div>

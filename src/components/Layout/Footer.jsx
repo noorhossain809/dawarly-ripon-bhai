@@ -12,7 +12,7 @@ import youtube from '../../assets/pictures/youtube.svg'
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-t border-gray-200 py-10 px-6 font-poppins">
+    <footer className="bg-white border-t border-gray-200 py-10 px-6 font-['Poppins']">
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-6 space-y-6">
         {/* Left Section */}
         <div className=" ">
@@ -91,10 +91,10 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="mt-10 max-w-7xl mx-auto border-t border-gray-200 py-4">
+      <div className="mt-10 max-w-7xl mx-auto border-t border-gray-200 py-4 font-['Poppins']">
         <div className="md:flex justify-between">
           {/* Left Side Text */}
-        <div className="text-[#222222] md:text-lg text-center font-semibold leading-normal" style={{fontFamily: 'Roboto'}}>
+        <div className="text-[#222222] md:text-lg text-center font-semibold leading-normal font-['Poppins']" >
           &copy; 2025 Dawarly. All Rights are Reserved
         </div>
 

@@ -30,19 +30,19 @@ const ProfilePage = () => {
   return (
     <div className=" bg-white mt-16 max-w-7xl mx-auto">
       {/* Section 1 */}
-      <div className="w-full md:w-[90%] lg:w-[1440px] h-auto md:h-[527px] relative bg-white flex flex-col md:flex-row justify-center items-center md:gap-10">
+      <div className="w-full md:w-[90%] lg:w-[1440px] h-auto md:h-[527px] relative bg-white flex flex-col md:flex-row justify-center items-center md:gap-8">
         {/* Left Profile Card */}
         <div className=" py-8 bg-white rounded-lg border border-[#dbdbdb] flex flex-col justify-center items-center space-y-6">
           <div className="">
             <div className="w-[120px] h-[120px] bg-[#d9d9d9] rounded-full"></div>
           </div>
-          <div className="w-full h-auto px-4 flex flex-col justify-center items-center gap-6">
-            <div className="w-full flex flex-col justify-center items-center gap-2">
+          <div className="w-full h-auto px-6 flex flex-col justify-center items-center gap-6">
+            <div className="w-full flex flex-col justify-center items-center gap-2 font-['Poppins']">
               <div className="flex flex-col items-center gap-1">
                 <div className="text-center text-black text-base font-medium ">
                   Jhon Doe
                 </div>
-                <div className="text-center text-[#3e3e59] text-sm font-normal font-['Roboto'] leading-snug">
+                <div className="text-center text-[#3e3e59] text-sm font-normal leading-snug">
                   General Electrician
                 </div>
               </div>
@@ -91,7 +91,7 @@ const ProfilePage = () => {
         </div>
 
         {/* About Section */}
-        <div className="w-full md:ml-[80px] mt-10 md:mt-0 px-4 md:px-0">
+        <div className="w-full md:ml-[80px] mt-10 px-4 md:px-0 font-['Poppins']">
           <div className="text-[#282828] md:text-[28px] text-2xl font-bold ">
             About Jon Doe
           </div>
@@ -117,9 +117,9 @@ const ProfilePage = () => {
       </div>
 
       {/* Section 2 */}
-      <div className=" flex flex-col py-10 bg-white md:mx-0 mx-4">
+      <div className=" flex flex-col py-10 bg-white md:mx-0 mx-4 font-['Poppins'] my-10">
         {/* Heading */}
-        <div className="w-full max-w-[1248px] mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-[#282828] text-[28px] font-medium mb-8">
             Related Electricians
           </h2>
