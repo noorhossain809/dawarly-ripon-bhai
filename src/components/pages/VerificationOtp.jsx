@@ -1,5 +1,6 @@
-import React from "react";
+
 import { useNavigate } from "react-router-dom";
+import icon from '../../assets/Electricity, Air conditioning and Elevators/back arrow.svg'
 
 const VerificationOTP = () => {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ const VerificationOTP = () => {
           {/* Back Arrow */}
           <div className="w-[37px] h-[37px] bg-[#0083b3] rounded-full flex justify-center items-center">
             <img
-              src="/src/assets/Electricity, Air conditioning and Elevators/back arrow.svg"
+              src={icon}
               alt="Back Arrow"
             />
           </div>
